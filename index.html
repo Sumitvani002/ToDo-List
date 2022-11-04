@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Tutorial</title>
+    <!--Do not need to link js file because it is named as index already identified by browser or server-->
+    <style>
+        .container {
+            border: 2px solid red;
+            margin: 3px 0;
+            background: cyan;
+            padding: 9px;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .bg-primary {
+            background-color: blueviolet;
+        }
+        
+        .text-success {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome To This JavaScript Tutorial</h1>
+    <div id="firstContainer" class=" container ">
+        <button id="click" onclick="clicked()">  
+             <!-- id cannot be duplicated, it is wrong practice but class can be  -->
+            Click Me
+        </button>
+        <p>This is a paragraph</p>
+    </div>
+    <div class="container ">
+        <p>This is a paragraph</p>
+    </div>
+
+    <script src="index.js"></script>
+
+
+</body>
+
+
+
+</html>
